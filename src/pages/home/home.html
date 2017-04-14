@@ -1,0 +1,143 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button>
+     <ion-icon name="qr-scanner"></ion-icon>
+    </button>
+    <ion-title>
+      <ion-searchbar placeholder="请输入您要搜索的商品" (ionInput)="getItems($event)"></ion-searchbar>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+      <ion-icon name="mail"></ion-icon>
+    </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-slides #mySlider [options]="mySlideOptions" style="width:100%;height:145px">
+    <ion-slide>
+      <img src="assets/img/banner1.jpg" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/banner2.jpg" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/banner3.jpg" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/banner4.jpg" alt="">
+    </ion-slide>
+  </ion-slides>
+  <div class="funnel">
+    <ion-row>
+      <ion-col width-20 (click)="CatePage()">
+        <span class="bookmarks">
+          <ion-icon name="bookmarks"></ion-icon>
+          </span>
+        <p>优惠中心</p>
+      </ion-col>
+      <ion-col width-20 (click)="FarmHousePage()">
+        <span class="person">
+          <ion-icon name="person"></ion-icon>
+          </span>
+        <p>个人中心</p>
+      </ion-col>
+      <ion-col width-20 (click)="EntertainmentPage()">
+        <span class="cube">
+          <ion-icon name="cube"></ion-icon>
+          </span>
+        <p>整箱购</p>
+      </ion-col>
+      <ion-col width-20 (click)="TourPage()">
+        <span class="jet">
+          <ion-icon name="jet"></ion-icon>
+          </span>
+        <p>招聚全球购</p>
+      </ion-col>
+      <ion-col width-20 (click)="OutDoorPage()">
+        <span class="bulb">
+          <ion-icon name="bulb"></ion-icon>
+          </span>
+        <p>帮助中心</p>
+      </ion-col>
+    </ion-row>
+  </div>
+  <div class="news">
+    <ion-card>
+      <ion-card-content>
+        <div class="newsleft">
+          <span>百城</span>
+          <span>快报</span>
+        </div>
+        <div class="newsmiddle">
+          <ion-slides #mySlider1 [options]="mySlideOptions1" style="width:100%;height:145px">
+            <ion-slide>
+              新闻一:我们该如何高质量产品
+            </ion-slide>
+            <ion-slide>
+              新闻二:我们该如何高质量产品
+            </ion-slide>
+            <ion-slide>
+              新闻三:我们该如何高质量产品
+            </ion-slide>
+            <ion-slide>
+              新闻四:我们该如何高质量产品
+            </ion-slide>
+          </ion-slides>
+        </div>
+        <div class="newsright">
+          更多》
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <div class="mainshopping">
+    <ion-grid>
+      <ion-row>
+        <ion-col width-50>
+          <span class="seckill">招聚秒杀</span>
+          <span class="everyday">每天整点</span>
+        </ion-col>
+        <ion-col width-50>
+          <div valign="bottom" class="timing">
+            <span>倒计时</span>
+            <p>{{d}}天{{h}}小时{{m}}分{{s}}秒结束</p>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col width-25>
+          <dl class="product1">
+            <dt><img src="assets/img/product1.jpg" alt=""></dt>
+            <dd class="price_seckill">￥75.00</dd>
+            <dd><s>￥75.00</s></dd>
+          </dl>
+        </ion-col>
+        <ion-col width-25>
+          <dl class="product2">
+            <dt><img src="assets/img/product2.jpg" alt=""></dt>
+            <dd class="price_seckill">￥75.00</dd>
+            <dd><s>￥75.00</s></dd>
+          </dl>
+        </ion-col>
+        <ion-col width-25>
+          <dl class="product3">
+            <dt><img src="assets/img/product3.jpg" alt=""></dt>
+            <dd class="price_seckill">￥75.00</dd>
+            <dd><s>￥75.00</s></dd>
+          </dl>
+        </ion-col>
+        <ion-col width-25>
+          <dl class="product4">
+            <dt><img src="assets/img/product4.jpg" alt=""></dt>
+            <dd class="price_seckill">￥75.00</dd>
+            <dd><s>￥75.00</s></dd>
+          </dl>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <div class="baner_middle">
+      <img src="assets/img/banner_middle.jpg" alt="">
+    </div>
+  </div>
+</ion-content>

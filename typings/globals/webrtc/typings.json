@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/9d7d5a209af31672a77f7a59bddcb8088ccc919f/webrtc/index.d.ts",
+    "raw": "registry:dt/webrtc#0.0.0+20160715011343",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/9d7d5a209af31672a77f7a59bddcb8088ccc919f/webrtc/index.d.ts"
+  }
+}

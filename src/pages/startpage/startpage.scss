@@ -1,0 +1,19 @@
+page-startpage{
+  ion-slide{
+     background-color: #eeeeee;
+  }
+  ion-slide img {
+      height: 100% !important;
+      width: 100% !important;
+  }
+.buttonpostion{
+    position: absolute;;
+    bottom: 20%;
+    right:0px;
+
+  }
+  button-ios,button-md{
+    position: relative;
+      bottom: 10px;
+  }
+}

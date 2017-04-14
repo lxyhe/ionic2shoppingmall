@@ -1,0 +1,25 @@
+<ion-header color="primary">
+  <ion-navbar>
+    <ion-title align="center">
+      直播列表
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content >
+  <ion-card *ngFor="let item of list_item">
+    <ion-item>
+      <ion-avatar item-left>
+        <img class="itemImg" [src]="item.titleImg" />
+      </ion-avatar>
+      <h2>{{item.username}}</h2>
+      <p>{{item.address}}</p>
+      <div item-right>
+        <span  class="pepolenum">{{item.watch}}</span>
+        <p>在看</p>
+      </div>
+    </ion-item>
+    <ion-card-content>
+        <img  [src]="item.titleImg"/>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

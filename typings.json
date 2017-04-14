@@ -1,0 +1,7 @@
+{
+  "globalDependencies": {
+    "cordova": "registry:dt/cordova#0.0.0+20160819210047",
+    "webrtc": "registry:dt/webrtc#0.0.0+20160715011343",
+    "webrtc/mediastream": "registry:dt/webrtc/mediastream#0.0.0+20160317120654"
+  }
+}

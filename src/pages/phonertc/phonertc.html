@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title align="center">
+      phonertc
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <h1>我的 PhoneRTC</h1>
+  <h1>时时通信直播</h1>
+  <!-- <div id="videoContainer"></div> -->
+  <video id="sb"></video>
+
+  <div class="">
+    <img [src]="photo" alt="">
+  </div>
+  <button ion-button type="button" name="button" (click)="getImage()">提取相册照片</button>
+  <button ion-button name="button" block (click)="camera()">照相</button>
+  <button ion-button name="button" block (click)="getlocation()">地址经纬度</button>
+  <button ion-button name="button" block (click)="camera()">本地</button>
+</ion-content>

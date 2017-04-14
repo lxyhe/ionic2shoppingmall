@@ -1,0 +1,194 @@
+page-home {
+  .toolbar-ios ion-title,
+  .toolbar-md ion-title {
+    padding: 0 45px;
+  }
+
+  .searchbar-input {
+    color: #fff;
+  }
+
+  .searchbar-ios .searchbar-search-icon,
+  .searchbar-md .searchbar-search-icon {
+    position: absolute;
+    top: 12px;
+    left: 9px;
+    color: #fff;
+  }
+
+  .ion-ios-qr-scanner:before,
+  .ion-md-qr-scanner:before {
+    font-size: 26px;
+  }
+
+  .swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet {
+    background-color: #fff;
+  }
+
+  .scroll-content {
+    background-color: #F3F3F3;
+  }
+  /*icon*/
+  .bookmarks,
+  .bulb,
+  .cube,
+  .jet,
+  .person {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    margin: 10px auto;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: #fff;
+  }
+
+  .bookmarks {
+    background-color: #EC234C;
+  }
+
+  .person {
+    background-color: #00A9E8;
+  }
+
+  .cube {
+    background-color: #546FE1;
+  }
+
+  .jet {
+    background-color: #AD2BE5;
+  }
+
+  .bulb {
+    background-color: #FEAA14;
+  }
+
+  ion-col p {
+    color: #7D807F;
+  }
+
+  .funnel {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .ion-md-bookmarks:before,
+  .ion-md-bulb:before,
+  .ion-md-cube:before,
+  .ion-md-jet:before,
+  .ion-md-person:before {
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .ion-ios-bookmarks:before,
+  .ion-ios-bulb:before,
+  .ion-ios-cube:before,
+  .ion-ios-jet:before,
+  .ion-ios-person:before {
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .news {
+    overflow: hidden;
+    padding-left: 5px;
+    text-align: center;
+  }
+
+  .news div {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+
+  }
+
+  .newsleft {
+    font-size: 12px;
+    width: 25%;
+    border-right: 1px solid #f3f3f3;
+  }
+
+  .newsleft span:first-child {
+    font-weight: bolder;
+
+  }
+  .newsleft span:nth-child(2){
+    font-weight: bolder;
+    color:#fff;
+    background-color: #e4393c;
+    padding: 2px;
+    border-radius: 35%;
+  }
+
+  .newsmiddle {
+    width: 60%;
+      border-right: 1px solid #f3f3f3;
+  }
+
+  .newsright {
+    width: 15%;
+
+  }
+
+  .card-content-ios,
+  .card-content-md {
+    padding: 0;
+  }
+
+  page-home .card-content-ios,
+  page-home .card-content-md {
+    padding: 0;
+  }
+
+  ion-card {
+    border-radius: 50%;
+  }
+  .slide-zoom{
+    font-size:12px;
+  }
+  .mainshopping{
+    background-color:#fff;
+
+  }
+  dl,dt,dd{
+    margin: 0;
+    padding: 0;
+  }
+  .price_seckill{
+    color:#e4393c;
+  }
+  .seckill{
+    font-family:"微软雅黑";
+    font-size:2rem;
+    color:#e4393c;
+    font-weight:900;
+    margin-left: 5px;
+  }
+  .everyday{
+    margin-left: 5px;
+    font-size: 0.5em
+  }
+  .baner_middle{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .timing{
+    height: 100%;
+    width: 100%;
+    font-size: 0.8em;
+
+  }
+  .timing p{
+    margin: 0;
+    padding: 0;
+    color:#e4393c;
+  }
+}

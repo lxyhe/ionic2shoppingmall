@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title align="center">
+      登录
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="Popover()">
+        注册
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class=" login-top">
+
+
+    <div class="loginborder" [(ngModel)]="phone">
+      <ion-input placeholder="请输入手机号码"></ion-input>
+    </div>
+    <div class="loginborder" [(ngModel)]="password">
+      <ion-input placeholder="请输入登录密码"></ion-input>
+    </div>
+    <p padding>
+      <a href="#">
+          忘记密码?
+        </a>
+    </p>
+    <div padding>
+      <button ion-button block round (click)="login()">登录</button>
+    </div>
+    <div class="note">
+      <p padding>
+        <a href="#">
+          短信验证码登录
+          </a>
+      </p>
+    </div>
+  </div>
+
+</ion-content>

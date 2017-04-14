@@ -1,0 +1,35 @@
+page-login{
+  .scroll-content{
+
+    background-image: url('../assets/img/appbackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  ion-input{
+    margin:0px
+  }
+  .login-top{
+    margin-top: 15%;
+  }
+  .login-top>p{
+    text-align:right;
+  }
+  .login-top>.note>p{
+    text-align:center;
+  }
+  .login-top>.note>p>a{
+  text-decoration: none;
+  }
+  .login-top>p>a{
+  text-decoration: none;
+  }
+  .loginborder{
+    background-color:#fff;
+    border:1px solid #ddd;
+    border-radius: 6px;
+    padding-left:10px;
+    width:90%;
+    margin: 10px auto;
+  }
+}
